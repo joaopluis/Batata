@@ -7,27 +7,25 @@ import pt.ist.batata.exception.AlreadyCookedException;
  */
 public class Batata {
 	
-	/** The weight. */
+	/** The weight (kg). */
 	private float weight;
 	
-	/** The sweetness. */
+	/** The sweetness. (scaled from 0 to 10) */
 	private int sweetness;
 	
 	/** The cooked status. */
 	private boolean cooked;
 	
 	/**
-	 * Instantiates a new batata.
+	 * Instantiates a new Batata.
 	 *
 	 * @param weight the weight
 	 * @param sweetness the sweetness
-	 * @param cooked the cooked status
 	 */
-	public Batata(float weight, int sweetness, boolean cooked) {
+	public Batata(float weight, int sweetness) {
 		super();
 		this.weight = weight;
 		this.sweetness = sweetness;
-		this.cooked = cooked;
 	}
 
 	/**
